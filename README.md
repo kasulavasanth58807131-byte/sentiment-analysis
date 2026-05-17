@@ -49,37 +49,7 @@ imdb-sentiment/
 
 ---
 
-## 🚀 Run Locally
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/imdb-sentiment.git
-cd imdb-sentiment
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Generate model files (run notebook first)
-#    Place model.pkl and vectorizer.pkl in this folder
-
-# 4. Launch the app
-streamlit run app.py
-```
-
----
-
-## 🌐 Deploy on Streamlit Cloud
-
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repo
-4. Set **Main file** to `app.py`
-5. Click **Deploy**
-
-> ⚠️ Upload `model.pkl` and `vectorizer.pkl` to the repo before deploying  
-> (use Git LFS if files exceed 100MB)
-
----
 
 ## 📦 Dataset
 
